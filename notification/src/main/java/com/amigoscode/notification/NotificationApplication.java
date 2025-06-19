@@ -1,6 +1,6 @@
-package com.amigoscode.notification;
+package com.bamba.notification;
 
-import com.amigoscode.amqp.RabbitMQMessageProducer;
+import com.bamba.amqp.RabbitMQMessageProducer;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,8 +10,8 @@ import org.springframework.context.annotation.PropertySources;
 
 @SpringBootApplication(
         scanBasePackages = {
-                "com.amigoscode.notification",
-                "com.amigoscode.amqp",
+                "com.bamba.notification",
+                "com.bamba.amqp",
         }
 )
 @PropertySources({

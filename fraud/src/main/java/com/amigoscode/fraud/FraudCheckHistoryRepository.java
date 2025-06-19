@@ -1,4 +1,4 @@
-package com.amigoscode.fraud;
+package com.bamba.fraud;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

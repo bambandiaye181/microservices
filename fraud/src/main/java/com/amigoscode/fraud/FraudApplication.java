@@ -1,4 +1,4 @@
-package com.amigoscode.fraud;
+package com.bamba.fraud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

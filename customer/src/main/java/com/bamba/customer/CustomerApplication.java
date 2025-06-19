@@ -1,4 +1,4 @@
-package com.amigoscode.customer;
+package com.bamba.customer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,13 +9,13 @@ import org.springframework.context.annotation.PropertySources;
 
 @SpringBootApplication(
         scanBasePackages = {
-                "com.amigoscode.customer",
-                "com.amigoscode.amqp",
+                "com.bamba.customer",
+                "com.bamba.amqp",
         }
 )
 @EnableEurekaClient
 @EnableFeignClients(
-        basePackages = "com.amigoscode.clients"
+        basePackages = "com.bamba.clients"
 )
 @PropertySources({
         @PropertySource("classpath:clients-${spring.profiles.active}.properties")

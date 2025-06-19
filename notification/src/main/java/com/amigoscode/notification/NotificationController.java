@@ -1,6 +1,6 @@
-package com.amigoscode.notification;
+package com.bamba.notification;
 
-import com.amigoscode.clients.notification.NotificationRequest;
+import com.bamba.clients.notification.NotificationRequest;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;

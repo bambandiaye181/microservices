@@ -1,10 +1,10 @@
-package com.amigoscode.customer;
+package com.bamba.customer;
 
-import com.amigoscode.amqp.RabbitMQMessageProducer;
-import com.amigoscode.clients.fraud.FraudCheckResponse;
-import com.amigoscode.clients.fraud.FraudClient;
-import com.amigoscode.clients.notification.NotificationClient;
-import com.amigoscode.clients.notification.NotificationRequest;
+import com.bamba.amqp.RabbitMQMessageProducer;
+import com.bamba.clients.fraud.FraudCheckResponse;
+import com.bamba.clients.fraud.FraudClient;
+import com.bamba.clients.notification.NotificationClient;
+import com.bamba.clients.notification.NotificationRequest;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -36,7 +36,7 @@ public class CustomerService {
         NotificationRequest notificationRequest = new NotificationRequest(
                 customer.getId(),
                 customer.getEmail(),
-                String.format("Hi %s, welcome to Amigoscode...",
+                String.format("Hi %s, welcome to bamba...",
                         customer.getFirstName())
         );
         rabbitMQMessageProducer.publish(

@@ -1,7 +1,7 @@
-package com.amigoscode.notification.rabbitmq;
+package com.bamba.notification.rabbitmq;
 
-import com.amigoscode.clients.notification.NotificationRequest;
-import com.amigoscode.notification.NotificationService;
+import com.bamba.clients.notification.NotificationRequest;
+import com.bamba.notification.NotificationService;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;

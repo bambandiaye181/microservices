@@ -1,6 +1,6 @@
-package com.amigoscode.notification;
+package com.bamba.notification;
 
-import com.amigoscode.clients.notification.NotificationRequest;
+import com.bamba.clients.notification.NotificationRequest;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -17,7 +17,7 @@ public class NotificationService {
                 Notification.builder()
                         .toCustomerId(notificationRequest.toCustomerId())
                         .toCustomerEmail(notificationRequest.toCustomerName())
-                        .sender("Amigoscode")
+                        .sender("bamba")
                         .message(notificationRequest.message())
                         .sentAt(LocalDateTime.now())
                         .build()

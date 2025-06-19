@@ -1,4 +1,4 @@
-package com.amigoscode.clients.notification;
+package com.bamba.clients.notification;
 
 public record NotificationRequest(
         Integer toCustomerId,

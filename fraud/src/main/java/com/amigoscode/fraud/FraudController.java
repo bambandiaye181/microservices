@@ -1,6 +1,6 @@
-package com.amigoscode.fraud;
+package com.bamba.fraud;
 
-import com.amigoscode.clients.fraud.FraudCheckResponse;
+import com.bamba.clients.fraud.FraudCheckResponse;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
