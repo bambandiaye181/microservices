@@ -3,7 +3,6 @@ package com.bamba.customer;
 import com.bamba.amqp.RabbitMQMessageProducer;
 import com.bamba.clients.fraud.FraudCheckResponse;
 import com.bamba.clients.fraud.FraudClient;
-import com.bamba.clients.notification.NotificationClient;
 import com.bamba.clients.notification.NotificationRequest;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
